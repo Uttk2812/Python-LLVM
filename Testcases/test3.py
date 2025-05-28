@@ -12,7 +12,7 @@ class A:
 		self.z = z
 
 	def set_name(self, name: str) -> None:
-		self.name = name
+		self.name =name
 
 	# getters
 	def get_y(self) -> int:
