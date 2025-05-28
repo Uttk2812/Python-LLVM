@@ -8,7 +8,7 @@ def main():
     c *= a
     c -= d
     a /= d 
-
+ 
 
 
 
