@@ -29,7 +29,7 @@ def Merge(a:list[str] , low:int, high:int, mid:int)->None:
 
     for i in range(low,high+1):
         a[i] = temp[i-low]
-    return
+    return 
  
 def MergeSort(a:list[str], low:int, high:int)->None:
     mid:int
