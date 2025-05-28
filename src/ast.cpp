@@ -1,5 +1,4 @@
 #include "ast.h"
-
 struct ast_node* new_ast_node(
 								int line_num,
 								string terminal,
