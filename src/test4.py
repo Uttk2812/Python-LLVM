@@ -1,7 +1,7 @@
 class ListOperations:
 	def __init__(self):
 		return;
-
+ 
 	def is_palindrome(self, data: list[int]) -> bool:
 		i: int = 0
 		for i in range(len(data)):
