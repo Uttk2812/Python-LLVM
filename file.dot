@@ -1,0 +1,775 @@
+digraph {
+   node1 [label = "start
+width = 32"]
+	node2 [label = "class
+NAME: ListOperations
+width = 32"]
+   node1 -> node2
+	node3 [label = "function
+NAME: main
+width = 32"]
+   node1 -> node3
+	node4 [label = "if_stmt
+width = 32"]
+   node1 -> node4
+	node5 [label = "body
+width = 32"]
+   node2 -> node5
+	node6 [label = "parameters
+width = 32"]
+   node3 -> node6
+	node7 [label = "body
+width = 32"]
+   node3 -> node7
+	node8 [label = "if
+width = 32"]
+   node4 -> node8
+	node9 [label = "function
+DUNDER: __init__
+width = 32"]
+   node5 -> node9
+	node10 [label = "function
+NAME: is_palindrome
+width = 32"]
+   node5 -> node10
+	node11 [label = "function
+NAME: find_max
+width = 32"]
+   node5 -> node11
+	node12 [label = "function
+NAME: reverse_list
+width = 32"]
+   node5 -> node12
+	node13 [label = "No Parameter
+width = 32"]
+   node6 -> node13
+	node14 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node7 -> node14
+	node15 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node7 -> node15
+	node16 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node7 -> node16
+	node17 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node7 -> node17
+	node18 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node7 -> node18
+	node19 [label = "NAME: print
+width = 32"]
+   node7 -> node19
+	node20 [label = "NAME: print
+width = 32"]
+   node7 -> node20
+	node21 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node7 -> node21
+	node22 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node7 -> node22
+	node23 [label = "NAME: print
+width = 32"]
+   node7 -> node23
+	node24 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node7 -> node24
+	node25 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node7 -> node25
+	node26 [label = "for_stmt
+width = 32"]
+   node7 -> node26
+	node27 [label = "RELATIONAL OPERATOR: ==
+width = 32"]
+   node8 -> node27
+	node28 [label = "body
+width = 32"]
+   node8 -> node28
+	node29 [label = "parameters
+width = 32"]
+   node9 -> node29
+	node30 [label = "body
+width = 32"]
+   node9 -> node30
+	node31 [label = "parameters
+width = 32"]
+   node10 -> node31
+	node32 [label = "body
+width = 32"]
+   node10 -> node32
+	node33 [label = "return type: bool
+width = 32"]
+   node10 -> node33
+	node34 [label = "parameters
+width = 32"]
+   node11 -> node34
+	node35 [label = "body
+width = 32"]
+   node11 -> node35
+	node36 [label = "return type: int
+width = 32"]
+   node11 -> node36
+	node37 [label = "parameters
+width = 32"]
+   node12 -> node37
+	node38 [label = "body
+width = 32"]
+   node12 -> node38
+	node39 [label = "return type: list [ ]
+width = 32"]
+   node12 -> node39
+	node40 [label = ":
+width = 32"]
+   node14 -> node40
+	node41 [label = "NAME: ListOperations
+width = 32"]
+   node14 -> node41
+	node42 [label = ":
+width = 32"]
+   node15 -> node42
+	node43 [label = "list [ ]
+width = 32"]
+   node15 -> node43
+	node44 [label = ":
+width = 32"]
+   node16 -> node44
+	node45 [label = "list [ ]
+width = 32"]
+   node16 -> node45
+	node46 [label = ":
+width = 32"]
+   node17 -> node46
+	node47 [label = ".
+width = 32"]
+   node17 -> node47
+	node48 [label = ":
+width = 32"]
+   node18 -> node48
+	node49 [label = ".
+width = 32"]
+   node18 -> node49
+	node50 [label = ".
+width = 32"]
+   node19 -> node50
+	node51 [label = ".
+width = 32"]
+   node20 -> node51
+	node52 [label = ":
+width = 32"]
+   node21 -> node52
+	node53 [label = "list [ ]
+width = 32"]
+   node21 -> node53
+	node54 [label = ":
+width = 32"]
+   node22 -> node54
+	node55 [label = ".
+width = 32"]
+   node22 -> node55
+	node56 [label = "NAME: answer
+width = 32"]
+   node23 -> node56
+	node57 [label = "NAME: items
+width = 32"]
+   node24 -> node57
+	node58 [label = ".
+width = 32"]
+   node24 -> node58
+	node59 [label = ":
+width = 32"]
+   node25 -> node59
+	node60 [label = "INTEGER: 0
+width = 32"]
+   node25 -> node60
+	node61 [label = "for
+width = 32"]
+   node26 -> node61
+	node62 [label = "NAME: i
+width = 32"]
+   node26 -> node62
+	node63 [label = "in
+width = 32"]
+   node26 -> node63
+	node64 [label = "NAME: range
+width = 32"]
+   node26 -> node64
+	node65 [label = "body
+width = 32"]
+   node26 -> node65
+	node66 [label = "DUNDER: __name__
+width = 32"]
+   node27 -> node66
+	node67 [label = "STRING: \"__main__\"
+width = 32"]
+   node27 -> node67
+	node68 [label = "NAME: main
+width = 32"]
+   node28 -> node68
+	node69 [label = "NAME: self
+width = 32"]
+   node29 -> node69
+	node70 [label = "return
+width = 32"]
+   node30 -> node70
+	node71 [label = "NAME: self
+width = 32"]
+   node31 -> node71
+	node72 [label = ":
+width = 32"]
+   node31 -> node72
+	node73 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node32 -> node73
+	node74 [label = "for_stmt
+width = 32"]
+   node32 -> node74
+	node75 [label = "return
+width = 32"]
+   node32 -> node75
+	node76 [label = "NAME: self
+width = 32"]
+   node34 -> node76
+	node77 [label = ":
+width = 32"]
+   node34 -> node77
+	node78 [label = "if_stmt
+width = 32"]
+   node35 -> node78
+	node79 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node35 -> node79
+	node80 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node35 -> node80
+	node81 [label = "for_stmt
+width = 32"]
+   node35 -> node81
+	node82 [label = "return
+width = 32"]
+   node35 -> node82
+	node83 [label = "NAME: self
+width = 32"]
+   node37 -> node83
+	node84 [label = ":
+width = 32"]
+   node37 -> node84
+	node85 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node38 -> node85
+	node86 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node38 -> node86
+	node87 [label = "while
+width = 32"]
+   node38 -> node87
+	node88 [label = "return
+width = 32"]
+   node38 -> node88
+	node89 [label = "int
+width = 32"]
+   node39 -> node89
+	node90 [label = "NAME: checker
+width = 32"]
+   node40 -> node90
+	node91 [label = "NAME: ListOperations
+width = 32"]
+   node40 -> node91
+	node92 [label = "( )
+width = 32"]
+   node41 -> node92
+	node93 [label = "NAME: a
+width = 32"]
+   node42 -> node93
+	node94 [label = "list [ ]
+width = 32"]
+   node42 -> node94
+	node95 [label = "INTEGER: 1
+width = 32"]
+   node43 -> node95
+	node96 [label = "INTEGER: 2
+width = 32"]
+   node43 -> node96
+	node97 [label = "INTEGER: 3
+width = 32"]
+   node43 -> node97
+	node98 [label = "INTEGER: 2
+width = 32"]
+   node43 -> node98
+	node99 [label = "INTEGER: 1
+width = 32"]
+   node43 -> node99
+	node100 [label = "NAME: b
+width = 32"]
+   node44 -> node100
+	node101 [label = "list [ ]
+width = 32"]
+   node44 -> node101
+	node102 [label = "INTEGER: 1
+width = 32"]
+   node45 -> node102
+	node103 [label = "INTEGER: 1
+width = 32"]
+   node45 -> node103
+	node104 [label = "INTEGER: 1
+width = 32"]
+   node45 -> node104
+	node105 [label = "INTEGER: 2
+width = 32"]
+   node45 -> node105
+	node106 [label = "INTEGER: 1
+width = 32"]
+   node45 -> node106
+	node107 [label = "NAME: c
+width = 32"]
+   node46 -> node107
+	node108 [label = "bool
+width = 32"]
+   node46 -> node108
+	node109 [label = "NAME: checker
+width = 32"]
+   node47 -> node109
+	node110 [label = "NAME: is_palindrome
+width = 32"]
+   node47 -> node110
+	node111 [label = "NAME: d
+width = 32"]
+   node48 -> node111
+	node112 [label = "bool
+width = 32"]
+   node48 -> node112
+	node113 [label = "NAME: checker
+width = 32"]
+   node49 -> node113
+	node114 [label = "NAME: is_palindrome
+width = 32"]
+   node49 -> node114
+	node115 [label = "NAME: checker
+width = 32"]
+   node50 -> node115
+	node116 [label = "NAME: is_palindrome
+width = 32"]
+   node50 -> node116
+	node117 [label = "NAME: checker
+width = 32"]
+   node51 -> node117
+	node118 [label = "NAME: is_palindrome
+width = 32"]
+   node51 -> node118
+	node119 [label = "NAME: items
+width = 32"]
+   node52 -> node119
+	node120 [label = "list [ ]
+width = 32"]
+   node52 -> node120
+	node121 [label = "INTEGER: 5
+width = 32"]
+   node53 -> node121
+	node122 [label = "INTEGER: 2
+width = 32"]
+   node53 -> node122
+	node123 [label = "INTEGER: 8
+width = 32"]
+   node53 -> node123
+	node124 [label = "INTEGER: 1
+width = 32"]
+   node53 -> node124
+	node125 [label = "INTEGER: 9
+width = 32"]
+   node53 -> node125
+	node126 [label = "NAME: answer
+width = 32"]
+   node54 -> node126
+	node127 [label = "int
+width = 32"]
+   node54 -> node127
+	node128 [label = "NAME: checker
+width = 32"]
+   node55 -> node128
+	node129 [label = "NAME: find_max
+width = 32"]
+   node55 -> node129
+	node130 [label = "NAME: checker
+width = 32"]
+   node58 -> node130
+	node131 [label = "NAME: reverse_list
+width = 32"]
+   node58 -> node131
+	node132 [label = "NAME: i
+width = 32"]
+   node59 -> node132
+	node133 [label = "int
+width = 32"]
+   node59 -> node133
+	node134 [label = "INTEGER: 5
+width = 32"]
+   node64 -> node134
+	node135 [label = "NAME: print
+width = 32"]
+   node65 -> node135
+	node136 [label = "( )
+width = 32"]
+   node68 -> node136
+	node137 [label = "NAME: data
+width = 32"]
+   node72 -> node137
+	node138 [label = "list [ ]
+width = 32"]
+   node72 -> node138
+	node139 [label = ":
+width = 32"]
+   node73 -> node139
+	node140 [label = "INTEGER: 0
+width = 32"]
+   node73 -> node140
+	node141 [label = "for
+width = 32"]
+   node74 -> node141
+	node142 [label = "NAME: i
+width = 32"]
+   node74 -> node142
+	node143 [label = "in
+width = 32"]
+   node74 -> node143
+	node144 [label = "NAME: range
+width = 32"]
+   node74 -> node144
+	node145 [label = "body
+width = 32"]
+   node74 -> node145
+	node146 [label = "True
+width = 32"]
+   node75 -> node146
+	node147 [label = "NAME: nums
+width = 32"]
+   node77 -> node147
+	node148 [label = "list [ ]
+width = 32"]
+   node77 -> node148
+	node149 [label = "if
+width = 32"]
+   node78 -> node149
+	node150 [label = ":
+width = 32"]
+   node79 -> node150
+	node151 [label = "NAME: nums
+width = 32"]
+   node79 -> node151
+	node152 [label = ":
+width = 32"]
+   node80 -> node152
+	node153 [label = "INTEGER: 0
+width = 32"]
+   node80 -> node153
+	node154 [label = "for
+width = 32"]
+   node81 -> node154
+	node155 [label = "NAME: i
+width = 32"]
+   node81 -> node155
+	node156 [label = "in
+width = 32"]
+   node81 -> node156
+	node157 [label = "NAME: range
+width = 32"]
+   node81 -> node157
+	node158 [label = "body
+width = 32"]
+   node81 -> node158
+	node159 [label = "NAME: max_val
+width = 32"]
+   node82 -> node159
+	node160 [label = "NAME: items
+width = 32"]
+   node84 -> node160
+	node161 [label = "list [ ]
+width = 32"]
+   node84 -> node161
+	node162 [label = ":
+width = 32"]
+   node85 -> node162
+	node163 [label = "INTEGER: 0
+width = 32"]
+   node85 -> node163
+	node164 [label = ":
+width = 32"]
+   node86 -> node164
+	node165 [label = "ARITHMETIC OPERATOR: -
+width = 32"]
+   node86 -> node165
+	node166 [label = "RELATIONAL OPERATOR: <
+width = 32"]
+   node87 -> node166
+	node167 [label = "body
+width = 32"]
+   node87 -> node167
+	node168 [label = "NAME: items
+width = 32"]
+   node88 -> node168
+	node169 [label = "int
+width = 32"]
+   node94 -> node169
+	node170 [label = "int
+width = 32"]
+   node101 -> node170
+	node171 [label = "NAME: a
+width = 32"]
+   node110 -> node171
+	node172 [label = "NAME: b
+width = 32"]
+   node114 -> node172
+	node173 [label = "NAME: a
+width = 32"]
+   node116 -> node173
+	node174 [label = "NAME: b
+width = 32"]
+   node118 -> node174
+	node175 [label = "int
+width = 32"]
+   node120 -> node175
+	node176 [label = "NAME: items
+width = 32"]
+   node129 -> node176
+	node177 [label = "NAME: items
+width = 32"]
+   node131 -> node177
+	node178 [label = "NAME: items
+width = 32"]
+   node135 -> node178
+	node179 [label = "int
+width = 32"]
+   node138 -> node179
+	node180 [label = "NAME: i
+width = 32"]
+   node139 -> node180
+	node181 [label = "int
+width = 32"]
+   node139 -> node181
+	node182 [label = "NAME: len
+width = 32"]
+   node144 -> node182
+	node183 [label = "if_stmt
+width = 32"]
+   node145 -> node183
+	node184 [label = "int
+width = 32"]
+   node148 -> node184
+	node185 [label = "RELATIONAL OPERATOR: ==
+width = 32"]
+   node149 -> node185
+	node186 [label = "body
+width = 32"]
+   node149 -> node186
+	node187 [label = "NAME: max_val
+width = 32"]
+   node150 -> node187
+	node188 [label = "int
+width = 32"]
+   node150 -> node188
+	node189 [label = "INTEGER: 0
+width = 32"]
+   node151 -> node189
+	node190 [label = "NAME: i
+width = 32"]
+   node152 -> node190
+	node191 [label = "int
+width = 32"]
+   node152 -> node191
+	node192 [label = "NAME: len
+width = 32"]
+   node157 -> node192
+	node193 [label = "if_stmt
+width = 32"]
+   node158 -> node193
+	node194 [label = "int
+width = 32"]
+   node161 -> node194
+	node195 [label = "NAME: i
+width = 32"]
+   node162 -> node195
+	node196 [label = "int
+width = 32"]
+   node162 -> node196
+	node197 [label = "NAME: j
+width = 32"]
+   node164 -> node197
+	node198 [label = "int
+width = 32"]
+   node164 -> node198
+	node199 [label = "NAME: len
+width = 32"]
+   node165 -> node199
+	node200 [label = "INTEGER: 1
+width = 32"]
+   node165 -> node200
+	node201 [label = "NAME: i
+width = 32"]
+   node166 -> node201
+	node202 [label = "NAME: j
+width = 32"]
+   node166 -> node202
+	node203 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node167 -> node203
+	node204 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node167 -> node204
+	node205 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node167 -> node205
+	node206 [label = "ARITHMETIC OPERATOR: +=
+width = 32"]
+   node167 -> node206
+	node207 [label = "ARITHMETIC OPERATOR: -=
+width = 32"]
+   node167 -> node207
+	node208 [label = "NAME: i
+width = 32"]
+   node178 -> node208
+	node209 [label = "NAME: data
+width = 32"]
+   node182 -> node209
+	node210 [label = "if
+width = 32"]
+   node183 -> node210
+	node211 [label = "NAME: len
+width = 32"]
+   node185 -> node211
+	node212 [label = "INTEGER: 0
+width = 32"]
+   node185 -> node212
+	node213 [label = "return
+width = 32"]
+   node186 -> node213
+	node214 [label = "NAME: nums
+width = 32"]
+   node192 -> node214
+	node215 [label = "if
+width = 32"]
+   node193 -> node215
+	node216 [label = "NAME: items
+width = 32"]
+   node199 -> node216
+	node217 [label = ":
+width = 32"]
+   node203 -> node217
+	node218 [label = "NAME: items
+width = 32"]
+   node203 -> node218
+	node219 [label = "NAME: items
+width = 32"]
+   node204 -> node219
+	node220 [label = "NAME: items
+width = 32"]
+   node204 -> node220
+	node221 [label = "NAME: items
+width = 32"]
+   node205 -> node221
+	node222 [label = "NAME: temp
+width = 32"]
+   node205 -> node222
+	node223 [label = "NAME: i
+width = 32"]
+   node206 -> node223
+	node224 [label = "INTEGER: 1
+width = 32"]
+   node206 -> node224
+	node225 [label = "NAME: j
+width = 32"]
+   node207 -> node225
+	node226 [label = "INTEGER: 1
+width = 32"]
+   node207 -> node226
+	node227 [label = "RELATIONAL OPERATOR: !=
+width = 32"]
+   node210 -> node227
+	node228 [label = "body
+width = 32"]
+   node210 -> node228
+	node229 [label = "NAME: nums
+width = 32"]
+   node211 -> node229
+	node230 [label = "INTEGER: 0
+width = 32"]
+   node213 -> node230
+	node231 [label = "RELATIONAL OPERATOR: >
+width = 32"]
+   node215 -> node231
+	node232 [label = "body
+width = 32"]
+   node215 -> node232
+	node233 [label = "NAME: temp
+width = 32"]
+   node217 -> node233
+	node234 [label = "int
+width = 32"]
+   node217 -> node234
+	node235 [label = "NAME: i
+width = 32"]
+   node218 -> node235
+	node236 [label = "NAME: i
+width = 32"]
+   node219 -> node236
+	node237 [label = "NAME: j
+width = 32"]
+   node220 -> node237
+	node238 [label = "NAME: j
+width = 32"]
+   node221 -> node238
+	node239 [label = "NAME: data
+width = 32"]
+   node227 -> node239
+	node240 [label = "NAME: data
+width = 32"]
+   node227 -> node240
+	node241 [label = "return
+width = 32"]
+   node228 -> node241
+	node242 [label = "NAME: nums
+width = 32"]
+   node231 -> node242
+	node243 [label = "NAME: max_val
+width = 32"]
+   node231 -> node243
+	node244 [label = "ASSIGNMENT OPERATOR: =
+width = 32"]
+   node232 -> node244
+	node245 [label = "NAME: i
+width = 32"]
+   node239 -> node245
+	node246 [label = "ARITHMETIC OPERATOR: -
+width = 32"]
+   node240 -> node246
+	node247 [label = "False
+width = 32"]
+   node241 -> node247
+	node248 [label = "NAME: i
+width = 32"]
+   node242 -> node248
+	node249 [label = "NAME: max_val
+width = 32"]
+   node244 -> node249
+	node250 [label = "NAME: nums
+width = 32"]
+   node244 -> node250
+	node251 [label = "ARITHMETIC OPERATOR: -
+width = 32"]
+   node246 -> node251
+	node252 [label = "NAME: i
+width = 32"]
+   node246 -> node252
+	node253 [label = "NAME: i
+width = 32"]
+   node250 -> node253
+	node254 [label = "NAME: len
+width = 32"]
+   node251 -> node254
+	node255 [label = "INTEGER: 1
+width = 32"]
+   node251 -> node255
+	node256 [label = "NAME: data
+width = 32"]
+   node254 -> node256
+}
